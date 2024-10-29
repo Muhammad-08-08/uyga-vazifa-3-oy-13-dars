@@ -36,7 +36,7 @@ let data = [
   },
 ];
 
-// // ? 1-misol
+//  ? 1-misol
 // function create(val){
 //   data.push(val);
 // }
