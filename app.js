@@ -37,45 +37,45 @@ let data = [
 ];
 
 //  ? 1-misol
-// function create(val){
-//   data.push(val);
-// }
-// create({
-//   id: 6,
-//   name: "Muhammad",
-//   age: 16,
-//   email: "muhammad@gmail.com",
-//   phone: "777-777-7777",
+function create(val){
+  data.push(val);
+}
+create({
+  id: 6,
+  name: "Muhammad",
+  age: 16,
+  email: "muhammad@gmail.com",
+  phone: "777-777-7777",
 
-// });
-// console.log(data);
+});
+console.log(data);
 
 // ? 1-misol tugadi
 
 //? 2-misol
 
-// function reyt(email){
-//   return data.find((val)=>val.email.toLocaleLowerCase().includes(email.toLocaleLowerCase()));
+function reyt(email){
+  return data.find((val)=>val.email.toLocaleLowerCase().includes(email.toLocaleLowerCase()));
 
-// }
+}
 
-// console.log(reyt("emily@example.com"))
+console.log(reyt("emily@example.com"))
 
 //? 2-misol tugadi
 
 // ! 3-misol
 
-// function Update(id, arr){
-//   let index = data.findIndex((val)=>
-//   val.id= id)
-//   if(index== -1) return
-//   data[index]={
-//     ...data[index],
-//     ...arr,
-//   };
-//   return data
-// }
-// console.log(Update(1, {name:"Muhammad"}));
+function Update(id, arr){
+  let index = data.findIndex((val)=>
+  val.id= id)
+  if(index== -1) return
+  data[index]={
+    ...data[index],
+    ...arr,
+  };
+  return data
+}
+console.log(Update(1, {name:"Muhammad"}));
 
 // ! 3-misol tugadi
 
