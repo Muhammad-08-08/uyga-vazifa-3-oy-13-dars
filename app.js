@@ -76,7 +76,7 @@ let data = [
 //   };
 //   return data
 // }
-// console.log(Update(1, {name:"OZODBEK JORABOYEV"}));
+// console.log(Update(1, {name:"Muhammad"}));
 
 // ! 3-misol tugadi
 
